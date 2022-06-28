@@ -1,4 +1,9 @@
 #color-game
+
+
+
+
+
 Color Game provides a player with a color in RGB format e.g: RGB(0,0,0) and tiles with different colors. The tiles can be 6 or 9, depending on the number selected by the player. The player is expected to choose the tile matching the RGB color. If they do, they win.
 
 If the player wins:
