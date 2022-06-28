@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin: 10px;
+    background-image: url(./images/larrymax.jpg);
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .rgb {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .image{
+    backdrop-filter: blur(30px);
+  }
+  .colors__block {
+    height: 100px;
+    width: 100%;
+    background: #ddd;
+    cursor: pointer;
+    transition: background 0.8s ease;
+  }
+  
+  .status {
+    min-width: 300px;
+    width: 60vw;
+    margin: 20px auto;
+    font-size: 1rem;
+  }
+  
+  .diff {
+    margin: 20px auto;
+  }
+  
+  .diff__btn {
+    font-size: 14px;
+    border: solid 1px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .diff__btn.active {
+    background: black;
+    color: white;
+    border-color: black;
+  }
